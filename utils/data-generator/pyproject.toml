@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "data-generator"
+version = "0.1.0"
+description = "Package to generate fake sales and product data"
+authors = ["tiagotxm <tiagoxmatos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.1"
+faker = "^24.7.1"
+pyarrow = "^15.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
